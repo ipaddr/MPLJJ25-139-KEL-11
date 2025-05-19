@@ -24,6 +24,8 @@ class ApiService {
       return UserModel.fromMap(data['user'], data['user']['id']);
     } else {
       throw Exception('Failed to login');
+
+      ///
     }
   }
 
